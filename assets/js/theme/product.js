@@ -8,6 +8,7 @@ import collapsibleFactory from './common/collapsible';
 import ProductDetails from './common/product-details';
 import videoGallery from './product/video-gallery';
 import { classifyForm } from './common/form-utils';
+import './ams/alex';
 
 export default class Product extends PageManager {
     constructor(context) {
@@ -67,4 +68,4 @@ export default class Product extends PageManager {
 //     $('#alex').load('https://api.ipify.org?format=json');
 // });
 // console.log('ajax stuff');
-$('#alex').load('https://api.ipify.org?format=json');
+// $('#alex').load('https://api.ipify.org?format=json');

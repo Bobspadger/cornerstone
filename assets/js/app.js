@@ -5,6 +5,7 @@ import $ from 'jquery';
 import 'jquery-migrate';
 import Global from './theme/global';
 
+
 const getAccount = () => import('./theme/account');
 const getLogin = () => import('./theme/auth');
 const pageClasses = {
