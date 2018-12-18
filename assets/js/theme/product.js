@@ -59,3 +59,12 @@ export default class Product extends PageManager {
         }
     }
 }
+
+;
+
+// console.log('hello again');
+// $(function () {
+//     $('#alex').load('https://api.ipify.org?format=json');
+// });
+// console.log('ajax stuff');
+$('#alex').load('https://api.ipify.org?format=json');
