@@ -23,6 +23,10 @@ product:
             {{> components/products/videos product.videos}}
         {{/if}}
 
+        {{#if product.similar_by_views}}
+        {{> components/products/carousel products=product.similar_by_views columns=6}}
+        {{/if}}
+
         {{#all settings.show_product_reviews (if theme_settings.show_product_reviews_tabs '!==' true)}}
             {{> components/products/reviews reviews=product.reviews product=product urls=urls}}
         {{/all}}
