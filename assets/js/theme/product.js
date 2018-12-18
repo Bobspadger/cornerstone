@@ -23,7 +23,7 @@ export default class Product extends PageManager {
                 window.history.replaceState(null, document.title, window.location.pathname);
             }
         });
-
+        console.log('Hello world');
         let validator;
 
         // Init collapsible
